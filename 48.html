@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>Calendário</h1>
+
+	<h2>Digite o ano que deseja mostrar o calendário:</h2>
+	<input type="number" id="input_ano"><br><br>
+
+<button onclick="geraCalendario()">Gera calendário</button>
+<button onclick="removeCalendario()">Remove Calendário</button>
+
+<div id="div_ano"></div>
+
+<div id="div_calendario">
+    <table style="background-color:#ada9fd; margin-left: auto; margin-right: auto;">
+        <tr>
+            <td>
+                <div id="td0"></div>
+            </td>
+            <td>
+                <div id="td1"></div>
+            </td>
+            <td>
+                <div id="td2"></div>
+            </td>
+            <td>
+                <div id="td3"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="td4"></div>
+            </td>
+            <td>
+                <div id="td5"></div>
+            </td>
+            <td>
+                <div id="td6"></div>
+            </td>
+            <td>
+                <div id="td7"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="td8"></div>
+            </td>
+            <td>
+                <div id="td9"></div>
+            </td>
+            <td>
+                <div id="td10"></div>
+            </td>
+            <td>
+                <div id="td11"></div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

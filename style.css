@@ -1,0 +1,22 @@
+.column {
+    float: left;
+    width: 33%;
+}
+
+.column-axle {
+    float: left;
+    width: 33%;
+}
+
+.class-button {
+    position: absolute;
+    width: 50%;
+    bottom: 10px;
+}
+
+.class-output {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
