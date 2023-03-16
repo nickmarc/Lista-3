@@ -92,7 +92,6 @@ function removerInputs_45() {
 
 function gerarInputs_45() {
     removerInputs_45()
-
     // PROCESSAMENTO
     var qtdAlunos = parseInt(document.getElementById("qtdAlunos").value)
     var divInput_45 = document.getElementById('divInput_45')
@@ -110,12 +109,10 @@ function gerarInputs_45() {
             divInput_45.appendChild(inNota)
         }
     }
-
     button_processar = document.createElement("button")
     button_processar.textContent = 'Calcular média';
     button_processar.setAttribute("onClick", `javascript: calcularMediaAlunos45(${qtdAlunos});`);
     divInput_45.appendChild(button_processar)
-
 }
 
 /// QUESTÃO 46
